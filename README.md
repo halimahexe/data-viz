@@ -1,22 +1,8 @@
-# sv
+# Data Visualisations
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+The purpose of this app is to showcase my data visualisations. This is currently a work in progress.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.12.5 create --template minimal --types ts --add prettier eslint vitest="usages:unit,component" playwright tailwindcss="plugins:typography" sveltekit-adapter="adapter:auto" --install npm .
-```
+The data I've used for the hemicycle (Parliament) chart comes from More in Common's MRP projections.
 
 ## Developing
 
